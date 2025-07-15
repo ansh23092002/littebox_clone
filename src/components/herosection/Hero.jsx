@@ -1,7 +1,12 @@
-import React from "react";
-import { Products } from "../Data";
+
+import { Products } from "../../Data";
+import Carousel from "./Carousel";
+
 
 const Hero = () => {
+
+ 
+            
   return (
     <div>
       <div className=" flex md:hidden  overflow-x-auto whitespace-nowrap px-4 py-2 border-b border-gray-200 ">
@@ -21,14 +26,7 @@ const Hero = () => {
           ))}
         </div>
       </div>
-
-      <imgslider className="" >
-        <img
-          src="https://littleboxindia.com/cdn/shop/files/final1.jpg?v=1747641453&width=1080"
-          alt="Ocean Core Collection"
-          className="w-full h-[500px] object-cover"
-        />
-      </imgslider>
+         <Carousel/>
     </div>
   );
 };

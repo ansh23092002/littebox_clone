@@ -15,7 +15,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const SocialMedia = () => {
   return (
      <div className='flex bg-[#313132] justify-between px-8 items-center '>
-        <ul  className='flex space-x-2'>
+        <ul  className='max-md:hidden flex space-x-2'>
           <a href=""><FaXTwitter style={{color:'white'}} /></a>   
           <a href=""><FaFacebookSquare  style={{color:'white'}} /></a>
           <a href=""><FaYoutube style={{color:'white'}}/></a>
@@ -27,7 +27,7 @@ const SocialMedia = () => {
           <a href=""><FaSnapchat  style={{color: 'white'}}/></a>
         </ul>
         <h1 className='text-[12px] py-2  font-bold text-white'>1 Million+ Squad, Outfits For Every Mood!</h1>
-         <button className=' flex items-center uppercase border border-white rounded-2xl font-bold text-[8px] text-white p-2'>
+         <button className=' flex items-center uppercase border border-white rounded-xl font-bold text-[8px] text-white p-2'>
             <CiMobile3 /> download app</button>
       </div>
   )

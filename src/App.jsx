@@ -1,8 +1,11 @@
 
 import './App.css'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import SocialMedia from './components/socialMedia'
+import Navbar from './components/navbar/Navbar'
+import Hero from './components/herosection/Hero'
+import SocialMedia from './components/navbar/SocialMedia'
+
+import DealSection from './components/DealList/DealSection'
+
 
 function App() {
  
@@ -11,6 +14,9 @@ function App() {
       <SocialMedia/>
       <Navbar/>
       <Hero/>
+      <DealSection/>
+
+    
     </div>
   )
 }
