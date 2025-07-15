@@ -1,11 +1,12 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
 import { FaChevronLeft } from "react-icons/fa6";
-// import ProductCard from "./ProductCard";
+import ProductCard from "./ProductCard";
+import { Items } from "../../Data";
 
 const DealSection = () => {
   return (
-    <div>
+    <div className="w-full overflow-hidden">
 
     <dir className="flex items-center justify-center gap-10">
       <button><FaChevronLeft /></button>
@@ -21,8 +22,14 @@ const DealSection = () => {
       <button><FaChevronRight  /></button>
     </dir>
 
-    <div>
-       {/* <ProductCard/> */}
+    <div className="mx-9 w-full overflow-hidden">
+       <div className="grid grid-cols-2 md:grid-cols-4    ">
+
+         
+      { Items.map((item,index)=>(
+        <ProductCard key={index} Items ={item} />
+      ))}
+    </div>
     </div>
           </div>
   );

@@ -1,20 +1,16 @@
-import React from 'react'
 
-const ProductCard = () => {
+
+const ProductCard = ({    Items}) => {
   return (
-    <Link to={`/movie/${movie.imdbID}`} className="block border p-2 rounded shadow hover:shadow-lg hover:bg-zinc-400 ">
+    <a className="pr-1 w-full    text-zinc-900 ">
      
       {/* single MovieCard by the uniqe Id */}
       
-      <img
-        src={movie.Poster !== 'N/A' ? movie.Poster : 'https://via.placeholder.com/150'}
-        alt={movie.Title}
-        className="w-full h-60 object-cover "
-      />
-      <h2 className="text-md font-semibold mt-2 justify-center flex">{movie.Title}</h2>
-      <p className='justify-center flex'>{movie.Year}</p>
+     <img src="https://littleboxindia.com/cdn/shop/files/Collar_Striped_Long_Sleeve_Shirt.jpg?v=1742282553" alt="" />
+      <h2 className=" mt-2 ">{Items.text}</h2>
+      <p className=''>Rs. {Items.price}</p>
     
-    </Link> 
+    </a> 
   )
 }
 

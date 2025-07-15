@@ -10,9 +10,9 @@ import DealSection from './components/DealList/DealSection'
 function App() {
  
   return (
-    <div>
+    <div >
       <SocialMedia/>
-      <Navbar/>
+      <Navbar className="sticky" />
       <Hero/>
       <DealSection/>
 

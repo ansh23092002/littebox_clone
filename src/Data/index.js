@@ -124,7 +124,7 @@ export const Items = [
   {
     src:'',
     text:"collar striped long Sleeve Shirt",
-    price:699.00,
+    price:"699.00",
   },
 
   {
