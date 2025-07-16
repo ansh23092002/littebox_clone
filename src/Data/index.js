@@ -133,28 +133,49 @@ export const Items = [
     price:"1,499.00",
   },
 
-  {
-    src:'',
-    text:"N-nec Solid Button Vest & Mid Rise Pocket W..",
-    price:"1,349.00",
-  },
+  // {
+  //   src:'',
+  //   text:"N-nec Solid Button Vest & Mid Rise Pocket W..",
+  //   price:"1,349.00",
+  // },
 
-  {
-    src:'',
-    text:"Square Neck Floral Corset Lace Up Midi Dress ",
-    price:"999.00",
-  },
+  // {
+  //   src:'',
+  //   text:"Square Neck Floral Corset Lace Up Midi Dress ",
+  //   price:"999.00",
+  // },
 
-  {
-    src:'',
-    text:"Set Of 3-V_Collar Long Sleeved Tops",
-    price:"1,199.00",
-  },
+  // {
+  //   src:'',
+  //   text:"Set Of 3-V_Collar Long Sleeved Tops",
+  //   price:"1,199.00",
+  // },
 
-   {
-    src:'',
-    text:"Contrast Collar V-Neck knif fitted To",
-    price:"1,199.00",
+  //  {
+  //   src:'',
+  //   text:"Contrast Collar V-Neck knif fitted To",
+  //   price:"1,199.00",
+  // },
+  
+]
+
+export const summerImg =[
+  {
+    src:'summer/summer_1.webp'
   },
+  
+  {
+    src:'summer/summer_2.webp'
+  },
+  
+  {
+    src:'summer/summer_3.webp'
+  },
+  
+  {
+    src:'summer/summer_4.webp'
+  },
+  
+  
 ]
 
