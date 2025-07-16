@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaLessThan } from "react-icons/fa";
 import { FaGreaterThan } from "react-icons/fa";
-import { PostersImages } from "../../Data";
+import { PostersImages } from "../../../Data";
 
 const Carousel = () => {
   const [current, setCurrent] = useState(0);

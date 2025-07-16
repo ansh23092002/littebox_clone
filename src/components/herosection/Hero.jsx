@@ -1,6 +1,6 @@
 
 import { Products } from "../../Data";
-import Carousel from "./Carousel";
+import Carousel from "./ui/Carousel";
 
 
 
